@@ -1,0 +1,876 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border:border-box;
+    font-family: url("Pure\ Blossom\ Free.ttf") abc;
+}
+
+
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    height: 50px;
+    width: 100%;
+}
+.logo-name{
+    margin-top: 15px;
+    margin-left: 3px;
+    font-family: abc;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+/*boox tow*/
+.nav-adrees{
+    margin: 15px;
+}
+
+.add-frst{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+   
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/*box three*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(216, 144, 10, 0.753);
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-s{
+    background-color: #f3f3f3f3;
+    width: 55px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    cursor: pointer;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/*box four*/
+span{
+    font-size: 0.7rem;
+}
+.nav-b{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*box five*/
+.nav-sing{
+    font-size: o.85rem;
+    font-weight: 700;
+}
+.nav-sing i{
+    font-size: 30px;
+   background-color: blue;
+}
+.nav-return{
+    font-size: o.85rem;
+    font-weight: 700;
+
+}
+.nav-return i{
+    font-size: 30px;
+    background-color: skyblue;
+}
+.nav-cart3{
+    font-size: o.85rem;
+    font-weight: 700;
+}
+.nav-cart3 i{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border: solid maroon;
+}
+.nav-cart4{
+    font-size: o.85rem;
+    font-weight: 700;
+}
+.nav-cart4 i{
+    font-size: 30px;
+    background-color: rgb(235, 7, 38);
+    color: white;
+    border: solid purple;
+}
+.nav-cart5{
+    font-size: o.85rem;
+    font-weight: 700;
+}
+.nav-cart5 i{
+    font-size: 30px;
+    background-color: green;
+    color: white;
+}
+
+/*panel*/
+.panal{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops p a{
+    color: white;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-d{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.panel-d:hover{
+    cursor: pointer;
+}
+
+/*hero sec*/
+.hero-sec{
+    background-image: url("download\ \(1\).jfif");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.hero-msg:hover{
+    cursor: pointer;
+
+}
+/*box sec*/
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 5px 55px;
+    margin-top: 15px;
+}
+.box1{
+    
+
+}
+.box1-img{
+    height: 370px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+}
+.box-con{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-con p{
+    color: #007185;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.box-con h2{
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/*footer*/
+footer{
+    margin-top: 15px;
+}
+.foot-p1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.box-con.box2{
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+} 
+.box2 h2{
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.box3 h2{
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.box4 h2{
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.box5 h2{
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.box6 h2{
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.box7 h2{
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.box8 h2{
+    margin-left: 10px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.foot-p1{
+    cursor: pointer;
+}
+.fot-p2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 40px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    cursor: pointer;
+    margin-top: 15px;
+    color: #dddddd;
+}
+
+.fot-p1{
+    background-color:#222f3d;
+    color: white;
+    border-top: 0.01px solid white;
+    height: 70px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+ul p{
+    cursor: pointer;
+}
+.con-m{
+    background-color: #0f1111;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.foot-last{
+    background-color: #0f1111;
+    color: white;
+    height: 100px;
+    padding-bottom: 20px;
+    font-size: 0,7rem;
+    text-align: center;
+    cursor: pointer;
+
+    
+}
+.pages{
+    padding-top: 25px;
+   
+
+}
+.copy{
+    padding-top:5px ;
+   
+
+}
+
+
+
+
+
+/* Screen Size 1400px check */
+@media (max-width: 1660px) {
+
+}
+
+/* Screen Size 1200px check */
+@media (max-width: 1399px) {
+    .nav-sing{
+        margin-left: 20px;
+    }
+    
+}
+
+ /* Screen Size 992px check */
+@media (max-width: 1199px) {
+    .nav-sing{
+        font-size: 10px;
+    }
+    .nav-return{
+        font-size: 10px;
+    }
+    .nav-cart3{
+        font-size: 10px;
+    }
+    .nav-cart4{
+        font-size: 10px;
+    }
+    .nav-cart5{
+        font-size: 10px;
+    }
+
+}
+
+ /* Screen Size 768px check */
+@media (max-width: 991px) {
+    .nav-sing{
+        font-size: 8px;
+        display: none;
+
+    }
+    .nav-return{
+       font-size: 8px;
+       display: none;
+    }
+    .nav-cart3{
+        display: none;
+    }
+    .nav-cart4{
+       display: none;
+    }
+    .nav-cart5{
+        font-size: 8px;
+        margin-left: 5px;
+        display: none;
+    }
+    .logo-name{
+        font-size: 15px;
+    }
+    .add-frst{
+        font-size: 10px;
+    }
+    .add-icon{
+        font-size: 11px;
+    }
+    .add-sec{
+        font-size: 10px;
+    }
+    .search-s option{
+        font-size: 12px;
+        height: auto;
+        width: 70%;
+    }
+    .search-input{
+        height: auto;
+        width: 100%;
+
+
+    }
+    .search-icon{
+        height: auto;
+        font-size: 14px;
+    }
+    .nav-search{
+        margin-right: 15px;
+    }
+
+    .panel-all{
+        font-size: 15px;
+    }
+    .panel-ops a{
+        font-size: 12px;
+    }
+    .panel-d{
+        font-size: 13px;
+    }
+    .box-con h2{
+        font-size: 18px;
+        margin-top: 10px;
+
+    }
+    .box2 h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .box3 h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .box4 h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .box5 h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .box6 h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .box7 h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .box8 h2{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .box1 p{
+        padding-bottom: 10px;
+    }
+    .box4 .box1-img{
+        height: 38vh;
+        width: 100%;
+        margin-top: 70px;
+
+    }
+    .box4 p{
+        margin-top: 70px;
+    } 
+
+    .foot-p1{
+        font-size: 15px;
+    }
+
+    .fot-p2 p{
+        font-size: 15px;
+        margin-left: 10px;
+
+    }
+    .fot-p2 a{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .con-m p{
+        font-size: 12px;
+    }
+
+    .con-m a{
+        font-size: 10px;
+    }
+
+    .pages a{
+        font-size: 15px;
+
+    }
+    .copy{
+        font-size: 15px;
+    }
+
+
+}
+
+/* Screen Size 576px check */
+@media (max-width: 767px) {
+    .nav-sing{
+        font-size: 8px;
+        display: none;
+
+    }
+    .nav-return{
+       font-size: 8px;
+       display: none;
+    }
+    .nav-cart3{
+        display: none;
+    }
+    .nav-cart4{
+       display: none;
+    }
+    .nav-cart5{
+        font-size: 8px;
+        margin-left: 5px;
+        display: none;
+    }
+    .logo-name{
+        font-size: 17px;
+    }
+    .add-frst{
+        font-size: 12px;
+    }
+    .add-icon{
+        font-size: 13px;
+    }
+    .add-sec{
+        font-size: 12px;
+    }
+    .search-s option{
+        font-size: 8px;
+        height: auto;
+        width: 70%;
+    }
+    .search-input{
+        height: auto;
+        width: 100%;
+
+
+    }
+    .search-icon{
+        height: auto;
+        font-size: 14px;
+    }
+    .nav-search{
+        margin-right: 15px;
+    }
+
+
+    .panel-all{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .panel-ops a{
+        font-size: 12px;
+    }
+    .panel-d{
+        font-size: 12px;
+        width: 30%;
+    }
+    .box-con h2{
+        font-size: 15px;
+        margin-top: 10px;
+
+    }
+    .box2 h2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .box3 h2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .box4 h2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .box5 h2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .box6 h2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .box7 h2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .box8 h2{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    .box4 .box1-img{
+        height: 38vh;
+        width: 100%;
+        margin-top: 70px;
+
+    }
+    .box4 p{
+        margin-top: 75px;
+    } 
+
+    .foot-p1{
+        font-size: 12px;
+    }
+
+    .fot-p2 p{
+        font-size: 12px;
+        margin-left: 10px;
+
+    }
+    .fot-p2 a{
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .con-m p{
+        font-size: 10px;
+    }
+
+    .con-m a{
+        font-size: 8px;
+    }
+
+    .pages a{
+        font-size: 12px;
+
+    }
+    .copy{
+        font-size: 12px;
+    }
+
+
+}
+
+
+/* Screen Size All mobile check */
+@media (max-width: 575px) {
+    .nav-sing{
+        font-size: 8px;
+        display: none;
+
+    }
+    .nav-return{
+       font-size: 8px;
+       display: none;
+    }
+    .nav-cart3{
+        display: none;
+    }
+    .nav-cart4{
+       display: none;
+    }
+    .nav-cart5{
+        font-size: 8px;
+        margin-left: 5px;
+        display: none;
+    }
+    .logo-name{
+        font-size: 12px;
+    }
+    .nav-adrees{
+        display: none;
+    }
+    .add-frst{
+        font-size: 5px;
+    }
+    .add-icon{
+        font-size: 7px;
+    }
+    .add-sec{
+        font-size: 5px;
+    }
+    .nav-search{
+        width: 80%;
+        margin-top: 5px;
+
+    }
+
+
+    .search-s option{
+        font-size: 8px;
+        height: auto;
+
+    }
+    .search-input{
+        height: auto;
+        width: 100%;
+
+
+    }
+    .search-icon{
+        height: auto;
+        font-size: 14px;
+    }
+    .nav-search{
+        margin-right: 15px;
+    }
+
+
+    .panel-all{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    .panel-ops a{
+        font-size: 10px;
+    }
+    .panel-d{
+        font-size: 9px;
+        width: 30%;
+    }
+    .hero-msg{
+        font-size: 10px;
+        width: 90%;
+        padding: 5px;
+    }
+    
+    .box-con h2{
+        font-size: 12px;
+        margin-top: 10px;
+
+    }
+    .box2 h2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .box3 h2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .box4 h2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .box5 h2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .box6 h2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .box7 h2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .box8 h2{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .box4 .box1-img{
+        height: 45vh;
+        width: 100%;
+        margin-top: 70px;
+
+    }
+    .box4 p{
+        margin-top: 75px;
+    }
+    .shop{
+        font-size: 10px;
+    } 
+    .box1{
+        height: auto;
+    }
+
+    .foot-p1{
+        font-size: 8px;
+    }
+
+    .fot-p2 p{
+        font-size: 7px;
+        margin-left: 10px;
+
+    }
+    .fot-p2 a{
+        font-size: 5px;
+        margin-left: 10px;
+    }
+
+    .con-m p{
+        font-size: 6px;
+    }
+
+    .con-m a{
+        font-size: 5px;
+    }
+
+    .pages a{
+        font-size: 6px;
+
+    }
+    .copy{
+        font-size: 6px;
+    }
+
+
+
+
+
+}
+
+    
+
+
+
+
+
+
